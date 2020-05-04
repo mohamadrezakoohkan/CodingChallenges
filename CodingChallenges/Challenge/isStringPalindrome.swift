@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 /// Write a function that accepts a String as its only parameter, and returns true if the string reads the same when reversed, ignoring case.
 /// - palindrome
 /// - ignoring-case

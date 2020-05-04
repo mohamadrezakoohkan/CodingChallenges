@@ -18,6 +18,8 @@
 		DD177354245FFB9200928EC6 /* AreTheLettersUniqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD177353245FFB9200928EC6 /* AreTheLettersUniqueTests.swift */; };
 		DD1773562460005900928EC6 /* isStringPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773552460005900928EC6 /* isStringPalindrome.swift */; };
 		DD177358246000BB00928EC6 /* IsStringPalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD177357246000BB00928EC6 /* IsStringPalindromeTests.swift */; };
+		DD17735A2460038900928EC6 /* twoStringContainsSameCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773592460038900928EC6 /* twoStringContainsSameCharacter.swift */; };
+		DD17735C246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17735B246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		DD177353245FFB9200928EC6 /* AreTheLettersUniqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreTheLettersUniqueTests.swift; sourceTree = "<group>"; };
 		DD1773552460005900928EC6 /* isStringPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isStringPalindrome.swift; sourceTree = "<group>"; };
 		DD177357246000BB00928EC6 /* IsStringPalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsStringPalindromeTests.swift; sourceTree = "<group>"; };
+		DD1773592460038900928EC6 /* twoStringContainsSameCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoStringContainsSameCharacter.swift; sourceTree = "<group>"; };
+		DD17735B246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStringContainsSameCharacterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				DD177347245FFA8000928EC6 /* Info.plist */,
 				DD177353245FFB9200928EC6 /* AreTheLettersUniqueTests.swift */,
 				DD177357246000BB00928EC6 /* IsStringPalindromeTests.swift */,
+				DD17735B246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift */,
 			);
 			path = CodingChallengesTests;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			children = (
 				DD177351245FFAAE00928EC6 /* areTheLettersUnique.swift */,
 				DD1773552460005900928EC6 /* isStringPalindrome.swift */,
+				DD1773592460038900928EC6 /* twoStringContainsSameCharacter.swift */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -220,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD17735A2460038900928EC6 /* twoStringContainsSameCharacter.swift in Sources */,
 				DD1773562460005900928EC6 /* isStringPalindrome.swift in Sources */,
 				DD177333245FFA7F00928EC6 /* ViewController.swift in Sources */,
 				DD17732F245FFA7F00928EC6 /* AppDelegate.swift in Sources */,
@@ -234,6 +241,7 @@
 			files = (
 				DD177358246000BB00928EC6 /* IsStringPalindromeTests.swift in Sources */,
 				DD177346245FFA8000928EC6 /* CodingChallengesTests.swift in Sources */,
+				DD17735C246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift in Sources */,
 				DD177354245FFB9200928EC6 /* AreTheLettersUniqueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
