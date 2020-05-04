@@ -14,5 +14,7 @@ import Foundation
 /// - dont use contains()
 ///
 func doesOneStringContainsAnotherString(input: String, contains: String) -> Bool {
-    return input.count >= contains.count ? (input.range(of: contains, options: .caseInsensitive) != nil) : false
+    return input.count >= contains.count
+        ? (input.range(of: contains, options: .caseInsensitive) != nil)
+        : false
 }
