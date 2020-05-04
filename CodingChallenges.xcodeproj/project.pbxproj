@@ -26,6 +26,8 @@
 		DD17736424601CD400928EC6 /* CountTheCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736324601CD400928EC6 /* CountTheCharactersTests.swift */; };
 		DD1773662460390E00928EC6 /* removeDuplicateLettersFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773652460390E00928EC6 /* removeDuplicateLettersFromString.swift */; };
 		DD1773682460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */; };
+		DD17736A24603F7500928EC6 /* condenseWhitespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736924603F7500928EC6 /* condenseWhitespace.swift */; };
+		DD17736C24603F9800928EC6 /* CondenseWhitespaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		DD17736324601CD400928EC6 /* CountTheCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTheCharactersTests.swift; sourceTree = "<group>"; };
 		DD1773652460390E00928EC6 /* removeDuplicateLettersFromString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicateLettersFromString.swift; sourceTree = "<group>"; };
 		DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicateLettersFromStringTests.swift; sourceTree = "<group>"; };
+		DD17736924603F7500928EC6 /* condenseWhitespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = condenseWhitespace.swift; sourceTree = "<group>"; };
+		DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondenseWhitespaceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 				DD17735F2460167E00928EC6 /* DoesOneStringContainsAnotherStringTests.swift */,
 				DD17736324601CD400928EC6 /* CountTheCharactersTests.swift */,
 				DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */,
+				DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */,
 			);
 			path = CodingChallengesTests;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				DD17735D2460139E00928EC6 /* doesOneStringContainsAnotherString.swift */,
 				DD17736124601A8C00928EC6 /* countTheCharacters.swift */,
 				DD1773652460390E00928EC6 /* removeDuplicateLettersFromString.swift */,
+				DD17736924603F7500928EC6 /* condenseWhitespace.swift */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 				DD17736224601A8C00928EC6 /* countTheCharacters.swift in Sources */,
 				DD177331245FFA7F00928EC6 /* SceneDelegate.swift in Sources */,
 				DD177352245FFAAE00928EC6 /* areTheLettersUnique.swift in Sources */,
+				DD17736A24603F7500928EC6 /* condenseWhitespace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +274,7 @@
 				DD1773682460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift in Sources */,
 				DD17735C246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift in Sources */,
 				DD177354245FFB9200928EC6 /* AreTheLettersUniqueTests.swift in Sources */,
+				DD17736C24603F9800928EC6 /* CondenseWhitespaceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
