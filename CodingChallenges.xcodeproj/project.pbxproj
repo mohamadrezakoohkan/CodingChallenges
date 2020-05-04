@@ -30,6 +30,8 @@
 		DD17736C24603F9800928EC6 /* CondenseWhitespaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */; };
 		DD17736E2460406E00928EC6 /* stringIsRotated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736D2460406E00928EC6 /* stringIsRotated.swift */; };
 		DD1773702460407C00928EC6 /* StringIsRotatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */; };
+		DD177372246046BD00928EC6 /* findPangrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD177371246046BD00928EC6 /* findPangrams.swift */; };
+		DD1773742460546D00928EC6 /* FindPangramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773732460546D00928EC6 /* FindPangramsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondenseWhitespaceTests.swift; sourceTree = "<group>"; };
 		DD17736D2460406E00928EC6 /* stringIsRotated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringIsRotated.swift; sourceTree = "<group>"; };
 		DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsRotatedTests.swift; sourceTree = "<group>"; };
+		DD177371246046BD00928EC6 /* findPangrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPangrams.swift; sourceTree = "<group>"; };
+		DD1773732460546D00928EC6 /* FindPangramsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPangramsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 				DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */,
 				DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */,
 				DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */,
+				DD1773732460546D00928EC6 /* FindPangramsTests.swift */,
 			);
 			path = CodingChallengesTests;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				DD1773652460390E00928EC6 /* removeDuplicateLettersFromString.swift */,
 				DD17736924603F7500928EC6 /* condenseWhitespace.swift */,
 				DD17736D2460406E00928EC6 /* stringIsRotated.swift */,
+				DD177371246046BD00928EC6 /* findPangrams.swift */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 				DD1773662460390E00928EC6 /* removeDuplicateLettersFromString.swift in Sources */,
 				DD17735A2460038900928EC6 /* twoStringContainsSameCharacter.swift in Sources */,
 				DD1773562460005900928EC6 /* isStringPalindrome.swift in Sources */,
+				DD177372246046BD00928EC6 /* findPangrams.swift in Sources */,
 				DD177333245FFA7F00928EC6 /* ViewController.swift in Sources */,
 				DD17735E2460139E00928EC6 /* doesOneStringContainsAnotherString.swift in Sources */,
 				DD17732F245FFA7F00928EC6 /* AppDelegate.swift in Sources */,
@@ -283,6 +290,7 @@
 				DD17735C246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift in Sources */,
 				DD177354245FFB9200928EC6 /* AreTheLettersUniqueTests.swift in Sources */,
 				DD17736C24603F9800928EC6 /* CondenseWhitespaceTests.swift in Sources */,
+				DD1773742460546D00928EC6 /* FindPangramsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
