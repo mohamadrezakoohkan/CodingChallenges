@@ -32,6 +32,9 @@
 		DD1773702460407C00928EC6 /* StringIsRotatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */; };
 		DD177372246046BD00928EC6 /* findPangrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD177371246046BD00928EC6 /* findPangrams.swift */; };
 		DD1773742460546D00928EC6 /* FindPangramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773732460546D00928EC6 /* FindPangramsTests.swift */; };
+		DD1773782460607600928EC6 /* vowelsAndConsonants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773772460607600928EC6 /* vowelsAndConsonants.swift */; };
+		DD17737A2460653500928EC6 /* VowelsAndConsonantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773792460653500928EC6 /* VowelsAndConsonantsTests.swift */; };
+		DD17737C2460686700928EC6 /* threeDiffrentLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17737B2460686700928EC6 /* threeDiffrentLetters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,9 @@
 		DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsRotatedTests.swift; sourceTree = "<group>"; };
 		DD177371246046BD00928EC6 /* findPangrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPangrams.swift; sourceTree = "<group>"; };
 		DD1773732460546D00928EC6 /* FindPangramsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPangramsTests.swift; sourceTree = "<group>"; };
+		DD1773772460607600928EC6 /* vowelsAndConsonants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vowelsAndConsonants.swift; sourceTree = "<group>"; };
+		DD1773792460653500928EC6 /* VowelsAndConsonantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelsAndConsonantsTests.swift; sourceTree = "<group>"; };
+		DD17737B2460686700928EC6 /* threeDiffrentLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeDiffrentLetters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,8 @@
 				DD17736924603F7500928EC6 /* condenseWhitespace.swift */,
 				DD17736D2460406E00928EC6 /* stringIsRotated.swift */,
 				DD177371246046BD00928EC6 /* findPangrams.swift */,
+				DD1773772460607600928EC6 /* vowelsAndConsonants.swift */,
+				DD17737B2460686700928EC6 /* threeDiffrentLetters.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 				DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */,
 				DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */,
 				DD1773732460546D00928EC6 /* FindPangramsTests.swift */,
+				DD1773792460653500928EC6 /* VowelsAndConsonantsTests.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -283,12 +292,14 @@
 				DD1773562460005900928EC6 /* isStringPalindrome.swift in Sources */,
 				DD177372246046BD00928EC6 /* findPangrams.swift in Sources */,
 				DD177333245FFA7F00928EC6 /* ViewController.swift in Sources */,
+				DD1773782460607600928EC6 /* vowelsAndConsonants.swift in Sources */,
 				DD17735E2460139E00928EC6 /* doesOneStringContainsAnotherString.swift in Sources */,
 				DD17732F245FFA7F00928EC6 /* AppDelegate.swift in Sources */,
 				DD17736224601A8C00928EC6 /* countTheCharacters.swift in Sources */,
 				DD177331245FFA7F00928EC6 /* SceneDelegate.swift in Sources */,
 				DD177352245FFAAE00928EC6 /* areTheLettersUnique.swift in Sources */,
 				DD17736E2460406E00928EC6 /* stringIsRotated.swift in Sources */,
+				DD17737C2460686700928EC6 /* threeDiffrentLetters.swift in Sources */,
 				DD17736A24603F7500928EC6 /* condenseWhitespace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +318,7 @@
 				DD177354245FFB9200928EC6 /* AreTheLettersUniqueTests.swift in Sources */,
 				DD17736C24603F9800928EC6 /* CondenseWhitespaceTests.swift in Sources */,
 				DD1773742460546D00928EC6 /* FindPangramsTests.swift in Sources */,
+				DD17737A2460653500928EC6 /* VowelsAndConsonantsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
