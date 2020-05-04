@@ -130,22 +130,22 @@
 		DD177344245FFA8000928EC6 /* CodingChallengesTests */ = {
 			isa = PBXGroup;
 			children = (
+				DD17737624605F5900928EC6 /* Strings */,
 				DD177345245FFA8000928EC6 /* CodingChallengesTests.swift */,
 				DD177347245FFA8000928EC6 /* Info.plist */,
-				DD177353245FFB9200928EC6 /* AreTheLettersUniqueTests.swift */,
-				DD177357246000BB00928EC6 /* IsStringPalindromeTests.swift */,
-				DD17735B246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift */,
-				DD17735F2460167E00928EC6 /* DoesOneStringContainsAnotherStringTests.swift */,
-				DD17736324601CD400928EC6 /* CountTheCharactersTests.swift */,
-				DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */,
-				DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */,
-				DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */,
-				DD1773732460546D00928EC6 /* FindPangramsTests.swift */,
 			);
 			path = CodingChallengesTests;
 			sourceTree = "<group>";
 		};
 		DD177350245FFA8500928EC6 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				DD17737524605F4A00928EC6 /* Strings */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		DD17737524605F4A00928EC6 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
 				DD177351245FFAAE00928EC6 /* areTheLettersUnique.swift */,
@@ -158,7 +158,23 @@
 				DD17736D2460406E00928EC6 /* stringIsRotated.swift */,
 				DD177371246046BD00928EC6 /* findPangrams.swift */,
 			);
-			path = Challenge;
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		DD17737624605F5900928EC6 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				DD177353245FFB9200928EC6 /* AreTheLettersUniqueTests.swift */,
+				DD177357246000BB00928EC6 /* IsStringPalindromeTests.swift */,
+				DD17735B246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift */,
+				DD17735F2460167E00928EC6 /* DoesOneStringContainsAnotherStringTests.swift */,
+				DD17736324601CD400928EC6 /* CountTheCharactersTests.swift */,
+				DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */,
+				DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */,
+				DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */,
+				DD1773732460546D00928EC6 /* FindPangramsTests.swift */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
