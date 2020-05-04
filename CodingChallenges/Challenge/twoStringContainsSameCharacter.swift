@@ -12,7 +12,8 @@ import Foundation
 /// - find duplicate characters
 ///
 func twoStringContainsSameCharacter(_ input: (lhs: String, rhs: String)) -> Bool {
-    let lhs = input.lhs.sorted()
-    let rhs = input.rhs.sorted()
-    return lhs == rhs
+    let lhs = input.lhs
+    let rhs = input.rhs
+    let equalLength = lhs.count == rhs.count
+    return equalLength && lhs.sorted() == rhs.sorted()
 }
