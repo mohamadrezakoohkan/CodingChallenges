@@ -28,6 +28,8 @@
 		DD1773682460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */; };
 		DD17736A24603F7500928EC6 /* condenseWhitespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736924603F7500928EC6 /* condenseWhitespace.swift */; };
 		DD17736C24603F9800928EC6 /* CondenseWhitespaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */; };
+		DD17736E2460406E00928EC6 /* stringIsRotated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736D2460406E00928EC6 /* stringIsRotated.swift */; };
+		DD1773702460407C00928EC6 /* StringIsRotatedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicateLettersFromStringTests.swift; sourceTree = "<group>"; };
 		DD17736924603F7500928EC6 /* condenseWhitespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = condenseWhitespace.swift; sourceTree = "<group>"; };
 		DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondenseWhitespaceTests.swift; sourceTree = "<group>"; };
+		DD17736D2460406E00928EC6 /* stringIsRotated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringIsRotated.swift; sourceTree = "<group>"; };
+		DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsRotatedTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,7 @@
 				DD17736324601CD400928EC6 /* CountTheCharactersTests.swift */,
 				DD1773672460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift */,
 				DD17736B24603F9800928EC6 /* CondenseWhitespaceTests.swift */,
+				DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */,
 			);
 			path = CodingChallengesTests;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				DD17736124601A8C00928EC6 /* countTheCharacters.swift */,
 				DD1773652460390E00928EC6 /* removeDuplicateLettersFromString.swift */,
 				DD17736924603F7500928EC6 /* condenseWhitespace.swift */,
+				DD17736D2460406E00928EC6 /* stringIsRotated.swift */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 				DD17736224601A8C00928EC6 /* countTheCharacters.swift in Sources */,
 				DD177331245FFA7F00928EC6 /* SceneDelegate.swift in Sources */,
 				DD177352245FFAAE00928EC6 /* areTheLettersUnique.swift in Sources */,
+				DD17736E2460406E00928EC6 /* stringIsRotated.swift in Sources */,
 				DD17736A24603F7500928EC6 /* condenseWhitespace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 			files = (
 				DD177358246000BB00928EC6 /* IsStringPalindromeTests.swift in Sources */,
 				DD177346245FFA8000928EC6 /* CodingChallengesTests.swift in Sources */,
+				DD1773702460407C00928EC6 /* StringIsRotatedTests.swift in Sources */,
 				DD1773602460167E00928EC6 /* DoesOneStringContainsAnotherStringTests.swift in Sources */,
 				DD17736424601CD400928EC6 /* CountTheCharactersTests.swift in Sources */,
 				DD1773682460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift in Sources */,
