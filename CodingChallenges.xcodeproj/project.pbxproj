@@ -35,6 +35,7 @@
 		DD1773782460607600928EC6 /* vowelsAndConsonants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773772460607600928EC6 /* vowelsAndConsonants.swift */; };
 		DD17737A2460653500928EC6 /* VowelsAndConsonantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773792460653500928EC6 /* VowelsAndConsonantsTests.swift */; };
 		DD17737C2460686700928EC6 /* threeDiffrentLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17737B2460686700928EC6 /* threeDiffrentLetters.swift */; };
+		DD17737E2460ACB000928EC6 /* ThreeDiffrentLettersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17737D2460ACB000928EC6 /* ThreeDiffrentLettersTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		DD1773772460607600928EC6 /* vowelsAndConsonants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vowelsAndConsonants.swift; sourceTree = "<group>"; };
 		DD1773792460653500928EC6 /* VowelsAndConsonantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelsAndConsonantsTests.swift; sourceTree = "<group>"; };
 		DD17737B2460686700928EC6 /* threeDiffrentLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeDiffrentLetters.swift; sourceTree = "<group>"; };
+		DD17737D2460ACB000928EC6 /* ThreeDiffrentLettersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDiffrentLettersTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				DD17736F2460407C00928EC6 /* StringIsRotatedTests.swift */,
 				DD1773732460546D00928EC6 /* FindPangramsTests.swift */,
 				DD1773792460653500928EC6 /* VowelsAndConsonantsTests.swift */,
+				DD17737D2460ACB000928EC6 /* ThreeDiffrentLettersTests.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				DD1773602460167E00928EC6 /* DoesOneStringContainsAnotherStringTests.swift in Sources */,
 				DD17736424601CD400928EC6 /* CountTheCharactersTests.swift in Sources */,
 				DD1773682460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift in Sources */,
+				DD17737E2460ACB000928EC6 /* ThreeDiffrentLettersTests.swift in Sources */,
 				DD17735C246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift in Sources */,
 				DD177354245FFB9200928EC6 /* AreTheLettersUniqueTests.swift in Sources */,
 				DD17736C24603F9800928EC6 /* CondenseWhitespaceTests.swift in Sources */,
