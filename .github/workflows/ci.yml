@@ -1,0 +1,41 @@
+
+name: CodingChallenge Tests
+
+on: [push,pull_request,release]
+
+jobs:
+  Build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+        matrix:
+          os: [macOS-latest]
+          destination: ['platform=iOS Simulator,OS=13.3,name=iPhone 11']
+    steps:
+      - name: Checkout to master
+        uses: actions/checkout@master
+      - name: Clean
+        run: |
+          xcodebuild clean
+      - name: Build
+        run: |
+          xcodebuild build -project CodingChallenges.xcodeproj -scheme CodingChallenges -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+        env:
+         destination: ${{ matrix.destination }}
+
+  Test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+        matrix:
+          os: [macOS-latest]
+          destination: ['platform=iOS Simulator,OS=13.3,name=iPhone 11']
+    steps:
+      - name: Checkout to master
+        uses: actions/checkout@master
+      - name: Clean
+        run: |
+          xcodebuild clean
+      - name: Test
+        run: |
+          xcodebuild test -project CodingChallenges.xcodeproj -scheme CodingChallenges -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+        env:
+         destination: ${{ matrix.destination }}
