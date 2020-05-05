@@ -1,4 +1,3 @@
-
 name: CodingChallenge Tests
 
 on: [push,pull_request,release]
@@ -27,39 +26,38 @@ jobs:
       - name: Run tests
       run: |
           swift test -v
-  
   Build:
-  runs-on: ${{ matrix.os }}
-  strategy:
-      matrix:
+    runs-on: ${{ matrix.os }}
+    strategy:
+        matrix:
           os: [macOS-latest]
           destination: ['platform=iOS Simulator,OS=13.4.1,name=iPhone 11']
-  steps:
+    steps:
       - name: Checkout to master
-      uses: actions/checkout@master
+        uses: actions/checkout@master
       - name: Clean
-      run: |
+        run: |
           xcodebuild clean
       - name: Build
-      run: |
+        run: |
           xcodebuild build -project CodingChallenges.xcodeproj -scheme CodingChallenges -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
-      env:
-          destination: ${{ matrix.destination }}
-  
+        env:
+         destination: ${{ matrix.destination }}
+
   Test:
-  runs-on: ${{ matrix.os }}
-  strategy:
-      matrix:
+    runs-on: ${{ matrix.os }}
+    strategy:
+        matrix:
           os: [macOS-latest]
           destination: ['platform=iOS Simulator,OS=13.4.1,name=iPhone 11']
-  steps:
+    steps:
       - name: Checkout to master
-      uses: actions/checkout@master
+        uses: actions/checkout@master
       - name: Clean
-      run: |
+        run: |
           xcodebuild clean
       - name: Test
-      run: |
+        run: |
           xcodebuild test -project CodingChallenges.xcodeproj -scheme CodingChallenges -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
-      env:
-          destination: ${{ matrix.destination }}
+        env:
+         destination: ${{ matrix.destination }}
