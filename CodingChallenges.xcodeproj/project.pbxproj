@@ -40,6 +40,8 @@
 		DD1773822460B2D300928EC6 /* FindLongestPrefixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773812460B2D300928EC6 /* FindLongestPrefixTests.swift */; };
 		DD1773842460B56200928EC6 /* runLengthEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773832460B56200928EC6 /* runLengthEncoding.swift */; };
 		DD1773862460B56A00928EC6 /* RunLengthEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773852460B56A00928EC6 /* RunLengthEncodingTests.swift */; };
+		DD1773882461592800928EC6 /* stringPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773872461592800928EC6 /* stringPermutations.swift */; };
+		DD17738A2461598700928EC6 /* StringPermutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1773892461598700928EC6 /* StringPermutationsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		DD1773812460B2D300928EC6 /* FindLongestPrefixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLongestPrefixTests.swift; sourceTree = "<group>"; };
 		DD1773832460B56200928EC6 /* runLengthEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runLengthEncoding.swift; sourceTree = "<group>"; };
 		DD1773852460B56A00928EC6 /* RunLengthEncodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLengthEncodingTests.swift; sourceTree = "<group>"; };
+		DD1773872461592800928EC6 /* stringPermutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringPermutations.swift; sourceTree = "<group>"; };
+		DD1773892461598700928EC6 /* StringPermutationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPermutationsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,7 @@
 				DD17737B2460686700928EC6 /* threeDiffrentLetters.swift */,
 				DD17737F2460B0CA00928EC6 /* findLongestPrefix.swift */,
 				DD1773832460B56200928EC6 /* runLengthEncoding.swift */,
+				DD1773872461592800928EC6 /* stringPermutations.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 				DD17737D2460ACB000928EC6 /* ThreeDiffrentLettersTests.swift */,
 				DD1773812460B2D300928EC6 /* FindLongestPrefixTests.swift */,
 				DD1773852460B56A00928EC6 /* RunLengthEncodingTests.swift */,
+				DD1773892461598700928EC6 /* StringPermutationsTests.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 				DD1773562460005900928EC6 /* isStringPalindrome.swift in Sources */,
 				DD177372246046BD00928EC6 /* findPangrams.swift in Sources */,
 				DD177333245FFA7F00928EC6 /* ViewController.swift in Sources */,
+				DD1773882461592800928EC6 /* stringPermutations.swift in Sources */,
 				DD1773782460607600928EC6 /* vowelsAndConsonants.swift in Sources */,
 				DD17735E2460139E00928EC6 /* doesOneStringContainsAnotherString.swift in Sources */,
 				DD17732F245FFA7F00928EC6 /* AppDelegate.swift in Sources */,
@@ -333,6 +340,7 @@
 				DD17736424601CD400928EC6 /* CountTheCharactersTests.swift in Sources */,
 				DD1773682460394B00928EC6 /* RemoveDuplicateLettersFromStringTests.swift in Sources */,
 				DD17737E2460ACB000928EC6 /* ThreeDiffrentLettersTests.swift in Sources */,
+				DD17738A2461598700928EC6 /* StringPermutationsTests.swift in Sources */,
 				DD1773822460B2D300928EC6 /* FindLongestPrefixTests.swift in Sources */,
 				DD17735C246004B400928EC6 /* TwoStringContainsSameCharacterTests.swift in Sources */,
 				DD177354245FFB9200928EC6 /* AreTheLettersUniqueTests.swift in Sources */,
