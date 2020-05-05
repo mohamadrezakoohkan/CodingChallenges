@@ -5,10 +5,7 @@ on: [push,pull_request,release]
 
 jobs:
   SwiftBuild:
-    runs-on: ${{ matrix.os }}
-    strategy:
-        matrix:
-          os: [macOS-latest]
+    runs-on: macOS-latest
     steps:
       - name: Checkout to master
         uses: actions/checkout@master
@@ -17,10 +14,7 @@ jobs:
           swift build -v
           
   SwiftTest:
-    runs-on: ${{ matrix.os }}
-    strategy:
-        matrix:
-          os: [macOS-latest]
+    runs-on: macOS-latest
     steps:
       - name: Checkout to master
         uses: actions/checkout@master
