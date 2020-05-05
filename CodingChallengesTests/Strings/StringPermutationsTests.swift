@@ -23,15 +23,41 @@ class StringPermutationsTests: XCTestCase {
         self.sut = nil
     }
 
+    func testLargeDataMeasure() {
+        measure {
+            var result = [String]()
+            self.sut!("engineer",&result)
+            XCTAssert(result.count == 40320)
+        }
+    }
+    
     func testCase1() {
-        XCTAssert(self.sut!("aabbcc") == "a2b2c2")
+        var result = [String]()
+        self.sut!("ab", &result)
+        XCTAssert(result == ["ab","ba"])
     }
 
     func testCase2() {
-        XCTAssert(self.sut!("aaabaaabaaa") == "a3b1a3b1a3")
+        var result = [String]()
+        self.sut!("abc", &result)
+        XCTAssert(result == ["abc", "acb", "bac", "bca", "cab", "cba"])
     }
     
     func testCase3() {
-        XCTAssert(self.sut!("aaAAaa") == "a2A2a2")
+        var result = [String]()
+        self.sut!("read",&result)
+        XCTAssert(result.count == 24)
+    }
+    
+    func testCase4() {
+        var result = [String]()
+        self.sut!("alien",&result)
+        XCTAssert(result.count == 120)
+    }
+    
+    func testCase5() {
+        var result = [String]()
+        self.sut!("wombat",&result)
+        XCTAssert(result.count == 720)
     }
 }
