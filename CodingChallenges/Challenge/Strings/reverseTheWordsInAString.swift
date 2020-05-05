@@ -12,9 +12,8 @@ import Foundation
 ///
 func reverseTheWordsInAString(_ input: String,
                               separatedBy separator: String.Element = " ") -> String {
-    let collection = input.split(separator: separator)
-    let reversedIndexes = collection.map { $0.reversed() }
-    let reversedString = reversedIndexes.joined(separator: String(separator))
-    let result = String(reversedString)
-    return result
+    let words = input.split(separator: separator)
+    let reversed = words.map { $0.reversed() }
+    let sentense = reversed.joined(separator: String(separator))
+    return String(sentense)
 }
