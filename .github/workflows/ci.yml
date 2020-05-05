@@ -6,13 +6,13 @@ on: [push,pull_request,release]
 jobs:
     
     SwiftBuild:
-        runs-on: macOS-latest
-        steps:
-            - name: Checkout to master
-            uses: actions/checkout@v1
-            - name: Build
-            run: |
-            swift build -v
+    runs-on: macOS-latest
+    steps:
+        - name: Checkout to master
+        uses: actions/checkout@v1
+        - name: Build
+        run: |
+        swift build -v
             
     SwiftTest:
     runs-on: macOS-latest
