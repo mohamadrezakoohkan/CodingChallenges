@@ -8,20 +8,20 @@ jobs:
     SwiftBuild:
         runs-on: macOS-latest
         steps:
-        - name: Checkout to master
+            - name: Checkout to master
             uses: actions/checkout@v1
-        - name: Build
+            - name: Build
             run: |
             swift build -v
             
     SwiftTest:
-        runs-on: macOS-latest
-        steps:
+    runs-on: macOS-latest
+    steps:
         - name: Checkout to master
-            uses: actions/checkout@v1
+        uses: actions/checkout@v1
         - name: Run tests
-            run: |
-            swift test -v
+        run: |
+        swift test -v
     
     Build:
     runs-on: ${{ matrix.os }}
