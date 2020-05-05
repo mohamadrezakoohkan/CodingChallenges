@@ -4,38 +4,57 @@ name: CodingChallenge Tests
 on: [push,pull_request,release]
 
 jobs:
-  Build:
+    
+    SwiftBuild:
+        runs-on: macOS-latest
+        steps:
+        - name: Checkout to master
+            uses: actions/checkout@v1
+        - name: Build
+            run: |
+            swift build -v
+            
+    SwiftTest:
+        runs-on: macOS-latest
+        steps:
+        - name: Checkout to master
+            uses: actions/checkout@v1
+        - name: Run tests
+            run: |
+            swift test -v
+    
+    Build:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-          os: [macOS-latest]
-          destination: ['platform=iOS Simulator,OS=13.4.1,name=iPhone 11']
+            os: [macOS-latest]
+            destination: ['platform=iOS Simulator,OS=13.4.1,name=iPhone 11']
     steps:
-      - name: Checkout to master
+        - name: Checkout to master
         uses: actions/checkout@master
-      - name: Clean
+        - name: Clean
         run: |
-          xcodebuild clean
-      - name: Build
+            xcodebuild clean
+        - name: Build
         run: |
-          xcodebuild build -project CodingChallenges.xcodeproj -scheme CodingChallenges -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+            xcodebuild build -project CodingChallenges.xcodeproj -scheme CodingChallenges -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
         env:
-         destination: ${{ matrix.destination }}
-
-  Test:
+            destination: ${{ matrix.destination }}
+    
+    Test:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-          os: [macOS-latest]
-          destination: ['platform=iOS Simulator,OS=13.4.1,name=iPhone 11']
+            os: [macOS-latest]
+            destination: ['platform=iOS Simulator,OS=13.4.1,name=iPhone 11']
     steps:
-      - name: Checkout to master
+        - name: Checkout to master
         uses: actions/checkout@master
-      - name: Clean
+        - name: Clean
         run: |
-          xcodebuild clean
-      - name: Test
+            xcodebuild clean
+        - name: Test
         run: |
-          xcodebuild test -project CodingChallenges.xcodeproj -scheme CodingChallenges -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+            xcodebuild test -project CodingChallenges.xcodeproj -scheme CodingChallenges -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
         env:
-         destination: ${{ matrix.destination }}
+            destination: ${{ matrix.destination }}
