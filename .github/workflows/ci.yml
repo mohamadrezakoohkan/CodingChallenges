@@ -9,19 +9,19 @@ jobs:
     runs-on: macOS-latest
     steps:
         - name: Checkout to master
-        uses: actions/checkout@v1
+        uses: actions/checkout@master
         - name: Build
         run: |
-        swift build -v
+            swift build -v
             
     SwiftTest:
     runs-on: macOS-latest
     steps:
         - name: Checkout to master
-        uses: actions/checkout@v1
+        uses: actions/checkout@master
         - name: Run tests
         run: |
-        swift test -v
+            swift test -v
     
     Build:
     runs-on: ${{ matrix.os }}
